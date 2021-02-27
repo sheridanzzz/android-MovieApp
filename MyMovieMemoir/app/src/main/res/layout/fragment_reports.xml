@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/register_btn_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/start_DateTxt"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#fff"
+        android:background="#11000000"
+        android:ems="10"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:hint="@string/start_date"/>
+
+    <EditText
+        android:id="@+id/end_DateTxt"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#fff"
+        android:background="#11000000"
+        android:ems="10"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:hint="@string/end_date"/>
+
+        <Button
+            android:id="@+id/btn_pieGo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/holo_purple"
+            android:text="@string/go"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:textColor="#fff">
+
+        <TextView
+            android:id="@+id/yearView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/select_year" />
+        <Spinner
+            android:id="@+id/yearSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textColor="#fff"
+            android:layout_marginStart="8dp"
+            android:entries="@array/year_array"/>
+        <Button
+            android:id="@+id/btn_barGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/holo_purple"
+            android:text="@string/go"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginEnd="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

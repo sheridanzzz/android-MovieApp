@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MyMovieMemoir</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="register_here">Register Here</string>
+    <string name="register">Register</string>
+    <string name="firstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="address">Address</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="Gender">Gender:</string>
+    <string name="postcode">Postcode</string>
+    <string name="state">State</string>
+    <string name="Dob">Date of Birth</string>
+    <string name="facebook_app_id">2595501170717832</string>
+    <string name="facebook_login_protocol_scheme">2595501170717832</string>
+    <string-array name="state_array">
+        <item>Select State</item>
+        <item>NSW</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>TAS</item>
+        <item>VIC</item>
+        <item>WA</item>
+        <item>ACT</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>Select Year</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+    <string name="movie_search">Movie Search</string>
+    <string name="movie_memoir">Movie Memoir</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="reports">Reports</string>
+    <string name="maps">Maps</string>
+    <string name="home">Home</string>
+    <string name="welcome">Welcome</string>
+    <string name="mymoviememoir">MY Movie Memoir</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="add_watchlist">Add to Watchlist</string>
+    <string name="add_memoir">Add to Memoir</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="go">GO</string>
+    <string name="cinema">Cinema</string>
+    <string name="cinema_name">Cinema Name</string>
+    <string name="cinema_postcode">Cinema postcode</string>
+    <string name="cinema_btn">Add Cinema</string>
+    <string name="select_year">Select Year</string>
+    <string name="comment">Comment</string>
+</resources>

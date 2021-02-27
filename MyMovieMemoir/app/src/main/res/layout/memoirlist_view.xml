@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/MovieNameML"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="movie name"
+        android:textColor="#fff" />
+
+    <RatingBar
+        android:id="@+id/starBarML"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize=".5" />
+
+    <TextView
+        android:id="@+id/releaseDateML"
+        android:layout_width="0px"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="release date" />
+    <TextView
+        android:id="@+id/watchedDateML"
+        android:layout_width="0px"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="watched date" />
+
+    <TextView
+        android:id="@+id/cinemaPostcodeML"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/cinema_postcode"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/commentML"
+        android:layout_width="0px"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="comment" />
+
+    <ImageView
+        android:id="@+id/imageViewML"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_weight="0.5" />
+
+</LinearLayout>

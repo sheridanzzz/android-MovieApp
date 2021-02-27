@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/mNWTxt"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="10dp"
+                android:text="Movie Name"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/rDWTXT"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:text="Release Date"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/DADWTXT"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:text="Date Added"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/movieNameWatchlistTxt"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="10dp"
+
+                android:text="movie name"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/releaseDateWatchlistTXT"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="movie name"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/DateAddedWatchlistTXT"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="movie name"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:text="View"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+
+            android:textColor="#fff"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:text="Share"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
