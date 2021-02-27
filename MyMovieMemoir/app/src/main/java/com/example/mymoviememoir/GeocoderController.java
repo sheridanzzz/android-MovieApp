@@ -38,7 +38,7 @@ public class GeocoderController {
             "https://maps.googleapis.com/maps/api/geocode/json?address=";
 
     public String getLatAndLong(String postcode, String address) {
-        final String methodPath = postcode + address + "AU&key=AIzaSyAYWoPpD4G0HvRMjb0ZlS7ecyOMokz8GHs";
+        final String methodPath = postcode + address + "google unique key";
         Request.Builder builder = new Request.Builder();
         builder.url(BASE_URL + methodPath);
         Request request = builder.build();
